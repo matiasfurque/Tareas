@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi primer html</title>
+  </head>
+  <body>
+    <!-- Encabezado -->
+    <h1>Automania</h1>
+
+    <!-- Menú -->
+    <ul>
+      <li><a href="Inicio.html" title="Inicio">Inicio</a></li>
+      <li><a href="ModelosAutos.html" title="Modelos de autitos">Modelos de autos</a></li>
+      <li><a href="Contacto.html" title="Contacto">Contacto</a></li>
+      <li><a href="http://Volkswagen.com" target="_blank" rel="noopener noreferrer">Volkswagen</a></li>
+    </ul>
+    <hr />
+    <!-- Contenido principal -->
+    <h2>Datos de contacto</h2>
+    <p>Si tienes alguna pregunta o comentario, no dudes en contactarnos a través del siguiente formulario:</p>
+    <form>
+      <p>
+        <label for="Nombre">Nombre:</label><br />
+        <input type="text" name="Nombre" placeholder="Tu nombre" required /><br />
+      </p>
+      <p>
+        <label for="Email">Email:</label><br />
+        <input type="email" name="Email" placeholder="Tu email" required /><br />
+      </p>
+      <p>
+        <label for="Consulta">Consulta:</label><br />
+        <textarea name="Consulta" placeholder="Escribe tu consulta aquí" required></textarea><br />
+      </p>
+      <p>
+        <label for="Marca">Selecciona una marca:</label><br />
+        <select name="Marca">
+          <option value="Volkswagen">Volkswagen</option>
+          <option value="Mercedes Benz">Mercedes Benz</option>
+          <option value="Otro">Otro</option>
+        </select>
+      </p>
+      <hr />
+      <input type="submit" value="Enviar" />
+      <hr />
+    </form>
+  </body>
+</html>
